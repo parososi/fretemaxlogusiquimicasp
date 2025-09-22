@@ -133,4 +133,4 @@ Esta calculadora replica a tabela oficial, mas o valor final pode divergir por:
 
 ## 📄 Licença
 
-Este projeto está sob a licença GPL 3.0 (GNU General Public License v3.0). Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International). Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
