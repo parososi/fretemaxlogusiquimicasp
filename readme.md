@@ -134,3 +134,9 @@ Esta calculadora replica a tabela oficial, mas o valor final pode divergir por:
 ## 📄 Licença
 
 Este projeto está sob a licença CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International). Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+### Resumo da Licença
+- ✅ **Usar**: Para fins não comerciais
+- ✅ **Compartilhar**: Com atribuição ao autor
+- ❌ **Modificar**: Não são permitidas obras derivadas
+- ❌ **Comercializar**: Não é permitido uso comercial
