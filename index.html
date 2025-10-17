@@ -878,6 +878,82 @@
     </style>
 </head>
 <body>
+    <!-- WIDGET DE VOLTAR AO MENU - Cole este código logo após a tag <body> em cada página de transportadora -->
+
+<style>
+    .back-menu-widget {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 9999;
+    }
+
+    .back-menu-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: #0000A3;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 163, 0.3);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .back-menu-btn:hover {
+        background: #000080;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 163, 0.4);
+    }
+
+    .back-menu-btn:active {
+        transform: translateY(0);
+    }
+
+    .back-menu-icon {
+        font-size: 1rem;
+    }
+
+    /* Responsivo para mobile */
+    @media (max-width: 768px) {
+        .back-menu-widget {
+            bottom: 15px;
+            left: 15px;
+        }
+
+        .back-menu-btn {
+            padding: 8px 14px;
+            font-size: 0.85rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .back-menu-btn {
+            padding: 10px 12px;
+            gap: 6px;
+        }
+        
+        .back-menu-text {
+            font-size: 0.8rem;
+        }
+    }
+</style>
+
+<div class="back-menu-widget">
+    <a href="https://parososi.github.io/transportadoras" class="back-menu-btn">
+        <span class="back-menu-icon">←</span>
+        <span class="back-menu-text">Menu</span>
+    </a>
+</div>
+
+<!-- FIM DO WIDGET -->
+
     <div class="container">
         <div class="header">
             <img src="https://i.ibb.co/JRyk30LH/logousimax.png" alt="Logo Usimax" class="header-logo">            
